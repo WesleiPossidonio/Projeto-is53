@@ -1,0 +1,95 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.logo-page {
+    width: 4.5rem;
+    padding: 1rem;
+}
+
+.logo-section {
+    width: 15rem;
+}
+
+.navbar-stick:not(.navbar-dark) {
+    background: #000 !important;
+}
+
+
+.hamburger {
+    color: #fff !important;
+}
+
+
+.nav-mobile-bg,
+.bg-black {
+    background: #000 !important;
+}
+
+.text-mark {
+    padding: 0 2rem;
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.ph.ph-play:before {
+    content: "\ec7e";
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 0.3rem;
+}
+
+.bg-card {
+    background: #fff !important;
+}
+
+.image-card-music {
+    width: 10rem !important;
+    margin: 3.2rem 0;
+}
+
+.disabled {
+    pointer-events: none !important;
+}
+
+.card-gig {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.link-developer:hover {
+    color: #f2f2f2 !important;
+}
+
+@media (max-width: 990px) {
+
+    .text-link-mobile {
+        font-size: 1rem !important;
+    }
+
+    html {
+        font-size: 87% !important;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .logo-page {
+        width: 3.8rem;
+    }
+
+    .logo-section {
+        width: 11rem;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 560px) {
+    .video-wrapper {
+        height: 100vh;
+    }
+}
